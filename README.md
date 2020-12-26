@@ -27,6 +27,33 @@
 >입력창   
 
 # DOM 요소   
+>## 요소선택
+>### 태그
+>```
+>  var selectedItem = document.getElementsByTagName("li");
+>```
+>### id
+>```
+>var selectedItem = document.getElementById("even"); 
+>```
+>### class
+>```
+>  var selectedItem = document.getElementsByClassName("odd");
+>```
+>### name
+>```
+>  var selectedItem = document.getElementsByName("first");
+>```
+>### css
+>```
+>  var selectedItem = document.querySelectorAll("li.odd");
+>```
+>### HTML 객체집합
+>```
+>  var title = document.title;
+>```
+
+
 >## innerHTML   
 >```
 >	var str = document.getElementById("text");   
