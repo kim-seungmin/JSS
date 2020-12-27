@@ -56,7 +56,19 @@
 
 >## innerHTML   
 >```
->	var str = document.getElementById("text");   
->	str.innerHTML = "이 문장으로 바뀌었습니다!";   
+>  link.href = "http://tcpschool.com/javascript/intro";	// 해당 요소의 href 속성값을 변경함.
+>	link.innerHTML = "자바스크립트 수업 바로 가기!";		// 해당 요소의 내용을 변경함. 
 >```
 >HTML 내용 변경
+
+>## style.   
+>```
+>	str.style.color = "black";  
+>```
+>style 내용 변경
+
+># 콘솔출력
+>```
+>   console.log(4 * 5);
+>```
+>콘솔창 출력(F12)
