@@ -72,3 +72,12 @@
 >   console.log(4 * 5);
 >```
 >콘솔창 출력(F12)
+
+>#  localStorage   
+> 클라이언트에 정보 저장   
+> 쿠키와 달리 만료기간이 없음
+>```
+>  localStorage.setItem("inputString", value);
+>~~~~~~~~~
+>  localStorage.removeItem("inputString");
+>```
