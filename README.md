@@ -105,3 +105,9 @@
 >```
 >padStart(n,"0")
 >```
+
+># Geolocation   
+> 브라우져로부터 좌표를 받아옴
+>```
+>navigator.geolocation.getCurrentPosition(onGeoOK, onGeoErr);
+>```
